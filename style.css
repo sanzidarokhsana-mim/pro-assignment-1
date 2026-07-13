@@ -289,3 +289,61 @@ nav ul li a:hover{
 .middle button:hover{
     background:#1d4ed8;
 }
+.ai-section{
+    background:#eef2ff;
+    padding:100px 20px;
+}
+
+.ai-section h2{
+    text-align:center;
+    font-size:42px;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.ai-section p{
+    width:700px;
+    margin:0 auto 45px;
+    text-align:center;
+    color:#6b7280;
+    font-size:18px;
+    line-height:30px;
+}
+
+.ai-box{
+    width:90%;
+    max-width:800px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.ai-box input{
+    flex:1;
+    padding:16px 20px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+
+.ai-box input:focus{
+    border-color:#2563eb;
+}
+
+.ai-box button{
+    padding:16px 30px;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.ai-box button:hover{
+    background:#1d4ed8;
+}
