@@ -117,3 +117,57 @@ nav ul li a:hover{
 .hero-button:hover{
     background:#1d4ed8;
 }
+
+.speakers{
+    width:90%;
+    max-width:1280px;
+    margin:100px auto;
+}
+
+.speakers h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+    color:#111827;
+}
+
+.speaker-box{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+}
+
+.speaker-card{
+    background:#ffffff;
+    border-radius:18px;
+    overflow:hidden;
+    border:1px solid #e5e7eb;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+  
+.speaker-card img{
+    width:100%;
+}
+
+.speaker-text{
+    padding:24px;
+}
+
+.speaker-text h6{
+    color:#2563eb;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.speaker-text h3{
+    margin:12px 0;
+    font-size:26px;
+    color:#111827;
+}
+
+.speaker-text p{
+    color:#6b7280;
+    font-size:16px;
+    line-height:28px;
+}
